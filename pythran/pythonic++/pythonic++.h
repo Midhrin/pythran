@@ -2,6 +2,7 @@
 #define PYTHONIC_PP_H
 
 /* core */
+#include "core/ndarray.h"
 #include "core/utils.h"
 #include "core/functional.h"
 #include "core/none.h"
@@ -18,6 +19,7 @@
 
 
 /* additional modules */
+#include "modules/numpy.h"
 #include "modules/dispatch.h"
 #include "modules/list.h"
 #include "modules/set.h"
