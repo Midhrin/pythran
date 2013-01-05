@@ -191,6 +191,8 @@ modules = {
             },
         "numpy": {
             "array": ConstFunctionIntr(),
+            "zeros": ConstFunctionIntr(),
+            "ones": ConstFunctionIntr(),
             },
         "time": {
                 "sleep": ConstFunctionIntr(),
