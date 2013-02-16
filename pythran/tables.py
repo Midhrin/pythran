@@ -194,6 +194,7 @@ modules = {
             "zeros": ConstFunctionIntr(),
             "ones": ConstFunctionIntr(),
             "empty": ConstFunctionIntr(),
+            "arange": ConstFunctionIntr(),
             },
         "time": {
                 "sleep": ConstFunctionIntr(),
