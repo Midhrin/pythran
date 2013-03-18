@@ -53,6 +53,7 @@ class TestEnv(unittest.TestCase):
             # Build the python function call.
             modname = "test_" + name
             attributes = []
+            print modname
             for p in params:
                 if isinstance(p, str):
                     attributes.append("'{0}'".format(p))
