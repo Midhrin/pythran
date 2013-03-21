@@ -19,7 +19,6 @@
 
 
 /* additional modules */
-#include "modules/numpy.h"
 #include "modules/dispatch.h"
 #include "modules/list.h"
 #include "modules/set.h"
@@ -35,6 +34,10 @@
 #include "modules/omp.h"
 #include "modules/itertools.h"
 #include "modules/bisect.h"
+
+/* numpy's expression template */
+#include "core/numpy_expr.h"
+#include "modules/numpy.h"
 
 /* extensions */
 #include "core/parallel.h"
