@@ -270,6 +270,13 @@ decltype(std::declval<int>() + 1) main()
                 ldflags=['-lgmpxx', '-lgmp']
                 )
 
+        # nt2
+        try:
+            self.check_package('Numerical template Toolbox', '#include <nt2/include/fucntions/simd/cos.hpp>\nint main() { return 0; }')
+        except EnvironmentError:
+            pass
+
+
 #        # tcmalloc only if available
 #        try:
 #            self.check_package('tcmalloc', 'int main() { return 0; }',
